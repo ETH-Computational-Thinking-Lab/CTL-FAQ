@@ -1,1 +1,1 @@
-# CTL-FAQ
+# Computational Thinking Lab - FAQ
