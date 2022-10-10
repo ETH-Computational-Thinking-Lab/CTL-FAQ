@@ -28,7 +28,7 @@ Contents of file demo1.py
 
 *Run this python code from the vscode TERMINAL like:*
 
-*python demo.py 3 100 1.0*
+*python demo1.py 3 100 1.0*
 
 *python demo1.py go*
 
