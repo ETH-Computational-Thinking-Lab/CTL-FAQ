@@ -26,7 +26,7 @@ If you cannot find a place in any of the existing groups and want to create a ne
 
 Contents of file demo1.py
 
-*Run this python code from the vscode TERMINAL like:*
+*Run this python code from the vscode TERMINAL (or from a linux shell or a windows command prompt) as:*
 
 *python demo1.py 3 100 1.0*
 
