@@ -13,6 +13,6 @@ If you cannot find a place in any of the existing groups and want to create a ne
 5. vscode: In the classroom folder, open assignment. You should see a README.md. To see the rendered version of the README.md source code, click on the split screen symbol (top right)
 6. vscode: You should see a triangle in the top right corner of your vscode screen (if not, install vscode extension *python*, or click on the settings wheel in vscode, check settings). 
 7. vscode: Open a python file or create a new one, press the triangle. The code should execute, output printed to 'OUTPUT'.
-8. vscode: There should be a Live Share buttom in the menu (if not, install vscode live share extension)
+8. vscode: There should be a Live Share buttom in the menu (if not, install *vscode live share* extension)
 9. vscode: Having modified files, click the Source Control symbol from the menu bar. Stage changes, commit changes (with message), synchronize.
 10. github: find your repository, check if files have been updated there.
