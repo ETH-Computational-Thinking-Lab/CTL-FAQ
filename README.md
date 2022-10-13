@@ -34,6 +34,8 @@ Add the c:\...\anaconda\condabin directory path into this field.
 4. If this didn't work, start vscode, go to the TERMINAL, and type: python --version. If you get an error message, and because you have python already installed via anaconda, the path to your anaconda installation is not known to your system. Under Windows, click the windows symbol (bottom left) -> Settings -> search for path -> Edit the system environment variables -> find the *path* environment and Edit it -> add your anaconda installation path, and also the ...\anaconda\condabin directory path to your paths. Save the new settings, open vscode, and type again *python --version* to your vscode TERMINAL.
    
 4. If this does not work, we will probably recommend uninstalling anaconda, then installing miniconda, and then installing the jupyter extension in vscode. This way you can use *conda install numpy* or *pip install numpy* from the vscode TERMINAL and also use jupyter from within vscode. 
+    
+5. We will be extremely happy receiving your feedback. 
 
 ### python with arguments
 
