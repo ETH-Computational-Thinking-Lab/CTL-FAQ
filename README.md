@@ -24,6 +24,10 @@ If you cannot find a place in any of the existing groups and want to create a ne
 ### Problem with anaconda + vscode + numpy/matplotlib
 
 It seems many of you installed anaconda earlier to use Jupyter, and didn't install miniconda. If so, it is eventually not possible to install numpy or other missing packages. We do not know yet a solution to this problem, but most likely the following could help: 
+
+0. Start vscode: Go to the wheel / Settings. Search for: terminal.integrated.shell.window. Choose *Command prompt*. 
+   Then go to the wheel, search conda, in Python: Conda Path c:\Users\username\anaconda3\condabin
+
 1. Start anaconda, In anaconda, open the anaconda command prompt and type: code <return>. This might start vscode with the correct settings. 
 3. If this does not work. Close anaconda. Try to find out where anaconda or anaconda3 is located on your disk, and search the directory condabin within the anaconda location. Write down this path or copy it. Start vscode. Click the wheel (last item in the menu bar) and choose *Settings*. In the search field that opened, type in *conda*. You should see this
     
