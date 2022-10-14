@@ -20,10 +20,13 @@ If you cannot find a place in any of the existing groups and want to create a ne
 ### Common problems with github, python and git
 
 1. Avoid blanks in directory, file and user names. Avoid minus characters (-) in python file names. 
-2. Configure git (in vscode TERMINAL or another terminal)
+2. Save your python file before committing changes
+3. Configure git (in vscode TERMINAL or another terminal)
 
           git config --global user.name "XXX"
           git config --global user.email XXX@YYY
+
+4. Resolve git conflicts. You may watch the git log file in vscode, or type *git log* in vscode TERMINAL. Possible actions: (i) In the vscode TERMINAL, type: *git config pull.rebase true*. (ii) If you see at the bottom top left of your vscode that you are not in *main*, click on this word (like *main+* or similar) and choose *main*. If there are conflicts, you should be asked to resolve them. Click on *Resolve conflicts*, and try to commit the eventually modified version. 
 
 ### Problem with anaconda + vscode + numpy/matplotlib
 
