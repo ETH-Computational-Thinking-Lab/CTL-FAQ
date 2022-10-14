@@ -20,6 +20,10 @@ If you cannot find a place in any of the existing groups and want to create a ne
 ### Common problems with github, python and git
 
 1. Avoid blanks in directory, file and user names. Avoid minus characters (-) in python file names. 
+2. Configure git (in vscode TERMINAL or another terminal)
+
+          git config --global user.name "XXX"
+          git config --global user.email XXX@YYY
 
 ### Problem with anaconda + vscode + numpy/matplotlib
 
