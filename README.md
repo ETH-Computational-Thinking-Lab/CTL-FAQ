@@ -30,7 +30,8 @@ If you cannot find a place in any of the existing groups and want to create a ne
 
 1. In the TERMINAL window type: [git mergetool](https://www.git-scm.com/docs/git-mergetool)
 2. In the TERMINAL window type: git config pull.rebase true
-3. If you see at the bottom top left of your vscode that you are not in *main*, click on this word (like *main+* or similar) and choose *main*. 
+3. If you see at the bottom top left of your vscode that you are not in *main*, click on this word (like *main+* or similar) and choose *main*.
+4. If you see *main (rebase)* in the bottom top left corner of vscode, and if 3. did not help, delete the whole github-ctl-... folder (usually within your user directory) or move it away if you did important changes. Then restart vscode, click the Github symbol, mouse over *open folder* behind the classroom directory, click this *open folder*, and you should retrieve and see all files that exist at your GitHub (website) repository.
 
 
 ### Problem with anaconda + vscode + numpy/matplotlib
