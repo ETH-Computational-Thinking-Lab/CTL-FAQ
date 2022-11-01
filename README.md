@@ -59,7 +59,7 @@ Add the c:\...\anaconda\condabin directory path into this field.
 
 ### installing ffmpeg under windows
           
-You do not necessarily install ffmpeg to create videos from a collection of image files. But if you wish to do so, we are aware of a successful installation under windows 10 using the sources available from [this size](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/) 
+You do not necessarily install ffmpeg to create videos from a collection of image files. But if you wish to do so, we are aware of a successful installation under windows 10 using the sources available from [this site](https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/).
           
 ### python with arguments
 
