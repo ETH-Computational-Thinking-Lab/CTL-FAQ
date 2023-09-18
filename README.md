@@ -1,4 +1,17 @@
-# Computational Thinking Lab - FAQ
+# Computational Thinking Lab - link list and FAQ
+
+### link list 
+
+1. anaconda installation: https://www.youtube.com/watch?v=xfAcErzOKN4
+2. VS Code installation with python integration: https://www.youtube.com/watch?v=HvAjnpA6mlA
+3. VS Code introduction: https://www.youtube.com/watch?v=UuwlySU7Hjg
+4. git in VS Code: https://www.youtube.com/watch?v=i_23KUAEtUM
+5. introduction to merge conflicts: https://www.youtube.com/watch?v=HosPml1qkrg
+6. working with github classroom in VS Code: https://www.youtube.com/watch?v=iqW_yzZkU_8
+7. (advanced) github classroom in the command line: https://www.youtube.com/watch?v=jXpT8eOzzCM
+8. introduction to markdown: https://www.markdownguide.org/getting-started/
+9. ... 
+
 
 ### How to check if setup is complete
 
