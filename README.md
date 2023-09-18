@@ -1,9 +1,5 @@
 # Computational Thinking Lab - FAQ
 
-### Group forming
-
-If you cannot find a place in any of the existing groups and want to create a new group, while the maximum number of groups has been reached already, or if you have already joined a team but couldn‘t see any identifiers and therefore skipped the process and have no access to your repository, please contact [Martin](https://polyphys.mat.ethz.ch/group/people/person-detail.mk.html).
-
 ### How to check if setup is complete
 
 1. login to www.github.com. click your github symbol. Check your profile. Check if you are member of the CTL organization and member of a group. If not, contact us.
@@ -26,15 +22,14 @@ If you cannot find a place in any of the existing groups and want to create a ne
           git config --global user.name "XXX"
           git config --global user.email XXX@YYY
 
-### Resolve git conflicts
+### git conflicts
 
 1. In the TERMINAL window type: [git mergetool](https://www.git-scm.com/docs/git-mergetool)
 2. In the TERMINAL window type: git config pull.rebase true
 3. If you see at the bottom top left of your vscode that you are not in *main*, click on this word (like *main+* or similar) and choose *main*.
 4. If you see *main (rebase)* in the bottom top left corner of vscode, and if 3. did not help, delete the whole github-ctl-... folder (usually within your user directory) or move it away if you did important changes. Then restart vscode, click the Github symbol, mouse over *open folder* behind the classroom directory, click this *open folder*, and you should retrieve and see all files that exist at your GitHub (website) repository.
 
-
-### Problem with anaconda + vscode + numpy/matplotlib
+### Problems with anaconda + vscode + numpy/matplotlib
 
 It seems many of you installed anaconda earlier to use Jupyter, and didn't install miniconda. If so, it is eventually not possible to install numpy or other missing packages. The following (1.) was reported to work, the remaining 2. to 5. are additional ideas. 
 
