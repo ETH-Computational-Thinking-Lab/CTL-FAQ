@@ -12,6 +12,17 @@
 8. introduction to markdown: https://www.markdownguide.org/getting-started/
 9. ... 
 
+### problems with git (Mac users)
+
+To check if your git installation operates properly with VS code, open VS code. Open a Terminal window from the menu bar (top). Enter: git --version. If an error message occurs, enter: git. This will install git. Afterwards, you may enter: git --version again to verify the installation. Then proceed with the two 'git config --global' items.
+
+### problems with git (Windows users)
+
+To check if your git installation operates properly with VS code, open VS code. Open a Terminal window from the menu bar (top). Enter: git --version. If an error message occurs, enter: conda -V into the Terminal. If this gives an error as well, enter: conda activate. Then enter: git --version. If this gives an error, enter: conda install git. This will install git. Afterwards, you may enter: git --version again to verify the installation. Then proceed with the two 'git config --global' items.
+
+If you continue having trouble, open the command palette in VS code using crtl-shift+P and select or type 'python: Select Interpreter'. Switch the interpreter to 'base' from conda, which is the correct environment. 
+
+If the above does not solve your problem, you might have installed Anaconda without leaving the checkbox 'ADD TO PATH' checked. We propose you deinstall and install Anaconda again, and this time keep the box checked. 
 
 ### How to check if setup is complete
 
