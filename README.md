@@ -14,11 +14,17 @@
 
 ### problems with git (Mac users)
 
-To check if your git installation operates properly with VS code, open VS code. Open a Terminal window from the menu bar (top). Enter: git --version. If an error message occurs, enter: git. This will install git. Afterwards, you may enter: git --version again to verify the installation. Then proceed with the two 'git config --global' items.
+To check if your git installation operates properly with VS code, open VS code. Open a Terminal window from the menu bar (top). Enter: git --version. If an error message occurs, enter: git. This will install git. Afterwards, you may enter: git --version again to verify the installation. Then proceed with the two 'git config --global' items
+
+          git config --global user.name "XXX"
+          git config --global user.email XXX@YYY
 
 ### problems with git (Windows users)
 
-To check if your git installation operates properly with VS code, open VS code. Open a Terminal window from the menu bar (top). Enter: git --version. If an error message occurs, enter: conda -V into the Terminal. If this gives an error as well, enter: conda activate. Then enter: git --version. If this gives an error, enter: conda install git. This will install git. Afterwards, you may enter: git --version again to verify the installation. Then proceed with the two 'git config --global' items.
+To check if your git installation operates properly with VS code, open VS code. Open a Terminal window from the menu bar (top). Enter: git --version. If an error message occurs, enter: conda -V into the Terminal. If this gives an error as well, enter: conda activate. Then enter: git --version. If this gives an error, enter: conda install git. This will install git. Afterwards, you may enter: git --version again to verify the installation. Then proceed with the two 'git config --global' items
+
+          git config --global user.name "XXX"
+          git config --global user.email XXX@YYY
 
 If you continue having trouble, open the command palette in VS code using crtl-shift+P and select or type 'python: Select Interpreter'. Switch the interpreter to 'base' from conda, which is the correct environment. 
 
@@ -41,10 +47,7 @@ If the above does not solve your problem, you might have installed Anaconda with
 
 1. Avoid blanks in directory, file and user names. Avoid minus characters (-) in python file names (if you have a blank in your username, you cannot use the GitHub symbol in vscode to open your classroom folder, but have to *Open folder*, and *clone repository* using the repository code available from your repository at the GitHub website)
 2. Save your python file before committing changes and leave a message in the Commit window before committing. Afterwards press *Synchronize*
-3. Configure git (in vscode TERMINAL or another terminal)
-
-          git config --global user.name "XXX"
-          git config --global user.email XXX@YYY
+3. Configure git (in vscode TERMINAL or another terminal), using the above-mentioned 'git config --global' items
 
 ### git conflicts
 
