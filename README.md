@@ -12,6 +12,10 @@
 8. introduction to markdown: https://www.markdownguide.org/getting-started/
 9. ... 
 
+### problems with python errors
+
+Please see <a href="https://github.com/CTL-PROJECTS/python-errors">this page</a>.
+
 ### problems with git (Mac users)
 
 To check if your git installation operates properly with VS code, open VS code. Open a Terminal window from the menu bar (top). Enter: git --version. If an error message occurs, enter: git. This will install git. Afterwards, you may enter: git --version again to verify the installation. Then proceed with the two 'git config --global' items
