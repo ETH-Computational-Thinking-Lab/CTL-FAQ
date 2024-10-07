@@ -52,6 +52,15 @@ If the above does not solve your problem, you might have installed Anaconda with
 1. Avoid blanks in directory, file and user names. Avoid minus characters (-) in python file names (if you have a blank in your username, you cannot use the GitHub symbol in vscode to open your classroom folder, but have to *Open folder*, and *clone repository* using the repository code available from your repository at the GitHub website)
 2. Save your python file before committing changes and leave a message in the Commit window before committing. Afterwards press *Synchronize*
 3. Configure git (in vscode TERMINAL or another terminal), using the above-mentioned 'git config --global' items
+4. Check if git is installed from within vscode. Open a Terminal in vscode, type
+          git --version
+5. Start vscode from anaconda, i.e., start the anaconda navigator first, then click the vscode logo in anaconda
+5. In the vscode terminal type
+          git add .
+          git commit -m "message"
+          git pull
+          git push
+
 
 ### git conflicts
 
