@@ -16,6 +16,15 @@
 
 Please see <a href="https://github.com/CTL-PROJECTS/python-errors">this page</a>.
 
+### problems with git pull/push from within vscode (git log error)
+
+Open a terminal within vscode and execute the following commands to manually pull and push (instead of using the vscode commit buttom)
+
+          git add .
+          git pull
+          git commit -m "test"
+          git push
+
 ### problems with git (Mac users)
 
 To check if your git installation operates properly with VS code, open VS code. Open a Terminal window from the menu bar (top). Enter: git --version. If an error message occurs, enter: git. This will install git. Afterwards, you may enter: git --version again to verify the installation. Then proceed with the two 'git config --global' items
